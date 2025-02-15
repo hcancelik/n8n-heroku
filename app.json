@@ -47,6 +47,10 @@
     "DB_POSTGRESDB_PASSWORD": {
       "value": "your-db-password",
       "description": "Database password"
+    },
+    "DB_POSTGRESDB_SSL_REJECT_UNAUTHORIZED": {
+      "description": "SSL is required to connect to Postgres on Heroku",
+      "value": "false"
     }
   },
   "addons": [
