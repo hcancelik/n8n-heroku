@@ -21,8 +21,8 @@
       "value": "change-me-to-something-else"
     },
     "WEBHOOK_URL": {
-      "description": "Replace <appname> with your Heroku application name. This will ensure the correct webhook URLs are being shown in n8n.",
-      "value": "https://<appname>.herokuapp.com"
+      "description": "Replace with your Heroku application name. This will ensure the correct webhook URLs are being shown in n8n.",
+      "value": "https://n8n.zekione.com"
     },
     "DB_TYPE": {
       "value": "postgresdb",
