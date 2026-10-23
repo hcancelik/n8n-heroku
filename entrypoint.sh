@@ -16,7 +16,6 @@ if [ -n "$DATABASE_URL" ]; then
 
   # Use a prefix to avoid conflicts and run the parser
   PREFIX="N8N_DB_" parse_url "$DATABASE_URL"
-  echo "$N8N_DB_SCHEME://$N8N_DB_USER:$N8N_DB_PASSWORD@$N8N_DB_HOSTPORT/$N8N_DB_DATABASE"
 
   # Separate host and port
   N8N_DB_HOST="$(echo $N8N_DB_HOSTPORT | sed -e 's,:.*,,g')"
